@@ -9,8 +9,9 @@ const nameDisplay = document.getElementById('name-display');
 
 /* Events */
 submitButton.addEventListener('click', () => {
-    console.log('clicking the button');
-});
+    nameDisplay.textContent = nameInput.value;
+    nameInput.value = '';
+}
 /* Display Functions */
 
 // (don't forget to call any display functions you want to run on page load!)
