@@ -1,4 +1,7 @@
 /* Imports */
+const nameInput = document.getElementById('name-input');
+const submitButton = document.getElementById('submit-button');
+const nameDisplay = document.getElementById('name-display');
 
 /* Get DOM Elements */
 
