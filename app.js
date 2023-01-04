@@ -8,7 +8,9 @@ const nameDisplay = document.getElementById('name-display');
 /* State */
 
 /* Events */
-
+submitButton.addEventListener('click', () => {
+    console.log('clicking the button');
+});
 /* Display Functions */
 
 // (don't forget to call any display functions you want to run on page load!)
